@@ -5,8 +5,8 @@ const SearchBar = props => {
   const formSubmit = event => {
     event.preventDefault();
     props.setSearchTermToState(event);
-    if(filterTermElem){
-      filterTermElem.value = ''
+    if (filterTermElem) {
+      filterTermElem.value = '';
     }
     // clearing filter for every search
   };
@@ -21,7 +21,7 @@ const SearchBar = props => {
         />
         <div className="input-group-append">
           <button className="btn btn-outline-primary" type="submit">
-            Button
+            Search
           </button>
         </div>
       </form>
