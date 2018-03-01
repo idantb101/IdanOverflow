@@ -5,7 +5,9 @@ const SingleStack = props => {
     <tr>
       <th scope="row">{props.stack.title}</th>
       <th>
-        <a href={props.stack.link} target="_blank">Link</a>
+        <a href={props.stack.link} target="_blank">
+          Link
+        </a>
       </th>
       <th>{props.stack.score}</th>
       <th>{props.stack.answer_count}</th>
