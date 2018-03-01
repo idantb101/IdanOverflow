@@ -1,0 +1,25 @@
+.userProfileWidth {
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.flexWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgSize {
+    width: 12vw;
+    height: 16vh;
+}
+
+.buttonCustomSize {
+    width: 75%;
+    margin: 0.2em;
+}
+
+.centerButton {
+    text-align: center;
+    margin: 1rem;
+}
